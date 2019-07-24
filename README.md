@@ -20,7 +20,7 @@ http://borgmoea.org. Follow the instructions on the Platypus github for installi
 
 Software included in this archive is written in Python and C. Shell scripts are provided to execute the code within a PBS unix environment (although this is not strictly necessary). A makefile is included. C source code is included in the src subfolder. When compiled correctly the C code produces a dynamic link library that is used by the python scripts to actually conduct the optimization. The makefile is configured for a Unix system and produces the file icow.dylib which must be located in the path.
 
-The main program accesses a surges.bin file containing annual highest storm surges. This file format may be dependant on machine hardware or software configuration. An RData file consisting of the storm surge sequences is contained in the src subfolder along with R and C code if required to generate the storm surge bin file.
+The main program accesses a surges.bin file containing annual highest storm surges. This file format is dependant on machine hardware or software configuration. R and C code in the source file is provided to generate the storm surge bin file.
 
 Once the software is compiled the shell scripts in the subfolder 81c can be executed. These shell scripts contain the command line parameters used for figures in the paper. They execute the python scripts in the main directory that optimize the iCOW for various combinations of lever settings.
 
