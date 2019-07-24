@@ -1,0 +1,11 @@
+qsub BORG_DH.sh
+qsub BORG_RH.sh
+qsub BORG_WH.sh
+qsub BORG_RH_DH.sh
+qsub BORG_RH_RP.sh
+qsub BORG_RH_RP_DH.sh
+qsub BORG_RH_DB_DH.sh
+qsub BORG_WH_DB_DH.sh
+qsub BORG_RH_RP_WH.sh
+qsub BORG_RH_RP_DB_DH.sh
+qsub BORG_RH_RP_WH_DB_DH.sh

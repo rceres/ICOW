@@ -1,0 +1,10 @@
+CPP = g++
+SRC_DIR = src
+TARGET = iCOW.dylib
+CPP_FLAGS = -m64 -O3 -Wno-unused-local-typedefs -I$(SRC_DIR) -I$(SRC_DIR)/boost_1_56_0 
+
+all:
+
+	
+	$(CPP) $(CPP_FLAGS) -o $(TARGET) -shared -fPIC $(SRC_DIR)/iCOW_2018_02_22.cpp
+

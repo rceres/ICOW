@@ -1,0 +1,12 @@
+
+qsub NSGAII_DH.sh
+qsub NSGAII_RH.sh
+qsub NSGAII_WH.sh
+qsub NSGAII_RH_DH.sh
+qsub NSGAII_RH_RP.sh
+qsub NSGAII_RH_RP_DH.sh
+qsub NSGAII_RH_DB_DH.sh
+qsub NSGAII_WH_DB_DH.sh
+qsub NSGAII_RH_RP_WH.sh
+qsub NSGAII_RH_RP_DB_DH.sh
+qsub NSGAII_RH_RP_WH_DB_DH.sh

@@ -1,0 +1,13 @@
+qsub Borg_00001.sh
+qsub Borg_00002.sh
+qsub Borg_00010.sh
+qsub Borg_00020.sh
+qsub Borg_00050.sh
+qsub Borg_00100.sh
+qsub Borg_00200.sh
+qsub Borg_00500.sh
+qsub Borg_01000.sh
+qsub Borg_02000.sh
+qsub Borg_05000.sh
+qsub Borg_10000.sh
+qsub Borg_20000.sh
