@@ -1,3 +1,19 @@
+island City On a Wedge, a modeling framework of intermediate complexity
+
+# Copyright (C) 2019 Robert L. Ceres
+
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  any later version.
+
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+
+#Code used in this archive was used to develop all figures in Ceres, Forest, Keller, 2019.
+
 import sys
 method=sys.argv[1]
 print(method)
