@@ -6,7 +6,7 @@ epss=0.05
 import matplotlib
 # Force matplotlib to not use any Xwindows backend.
 matplotlib.use('Agg')
-outputPath='/home/scrim/rlc299/scratch/ICOW/'
+outputPath='./ICOW/'
 figPath=outputPath + 'figs/'
 
 method=sys.argv[1]
