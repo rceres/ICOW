@@ -1,4 +1,4 @@
-island City On a Wedge, a modeling framework of intermediate complexity
+# island City On a Wedge, a modeling framework of intermediate complexity
 
 # Copyright (C) 2019 Robert L. Ceres
 
@@ -12,7 +12,7 @@ island City On a Wedge, a modeling framework of intermediate complexity
 #  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #  GNU General Public License for more details.
 
-#Code used in this archive was used to develop all figures in Ceres, Forest, Keller, 2019.
+# Code used in this archive was used to develop all figures in Ceres, Forest, Keller, 2019.
 
 import sys
 method=sys.argv[1]
