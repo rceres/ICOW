@@ -5,7 +5,8 @@ dO=20
 dI=10
 epss=0.05
 
-outputPath='/home/scrim/rlc299/scratch/ICOW/'
+outputPath='./ICOW/'
+figPath=outputPath + 'figs/'
 
 
 method=sys.argv[1]

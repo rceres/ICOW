@@ -5,7 +5,8 @@ from rhodium.ffi import NativeModel
 import matplotlib.pyplot as plt
 import matplotlib.pylab
 method='BorgMOEA'
-outputPath='/home/scrim/rlc299/scratch/ICOW/'
+
+outputPath='./ICOW/'
 figPath=outputPath + 'figs/'
 
 
